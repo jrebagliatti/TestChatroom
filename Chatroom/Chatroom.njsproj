@@ -7,7 +7,6 @@
     <RootNamespace>Chatroom</RootNamespace>
     <Environment>DOCUMENT_DB_HOST=https://{your-document-db-account}.documents.azure.com:443/
 DOCUMENT_DB_AUTH_KEY={your-document-db-primary-access-key}</Environment>
-    <NameOfLastUsedPublishProfile>chatroomsite - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -42,7 +41,6 @@ DOCUMENT_DB_AUTH_KEY={your-document-db-primary-access-key}</Environment>
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
     <Compile Include="socketio.js" />
-    <None Include="chatroomsite - Web Deploy.pubxml" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\bootstrap-theme.min.css" />
     <Content Include="public\stylesheets\bootstrap.min.css" />
